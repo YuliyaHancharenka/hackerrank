@@ -3,15 +3,9 @@ package hackerrank;
 import java.util.Arrays;
 
 /*
- Почитай про него и найди циферку 4 в массиве [6 2 3 4 1 8 7 5 9 0] с помощью него
- ну вот тебе и задача)
- в идеале написать самой его
- ну а так в java есть готовая реализация
-
- Кстати именно на бинарном поиске чувствуется мощь алгоритмов:)
- задача ни о чем, но все сразу такие "Говно вопрос, вызываем binartSearch и все - готово"))
-Каждый такой ответ как праздник для меня
- */
+Find "4" in array [6 2 3 4 1 8 7 5 9 0] using Binary search
+Write Binary search or use java realization
+*/
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {6, 2, 3, 4, 1, 8, 7, 5, 9, 0};
