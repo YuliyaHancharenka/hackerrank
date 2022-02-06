@@ -10,8 +10,8 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {6, 2, 3, 4, 1, 8, 7, 5, 9, 0};
         Arrays.sort(arr);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int value : arr) {
+            System.out.print(value + " ");
         }
         System.out.println();
         System.out.println(binarySearch(4, arr));
